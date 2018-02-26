@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
             list.append(textField.text!)
             textField.text = ""
         }
-        UserDefaults.standard.set(list, forKey: "listaDaComprare")
+        UserDefaults.standard.set(list, forKey: "listaDaCamprare")
     }
     
     

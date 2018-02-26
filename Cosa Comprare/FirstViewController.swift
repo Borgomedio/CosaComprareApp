@@ -40,9 +40,9 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
-        if let y = UserDefaults.standard.object(forKey: "listaDaCamprare") {
-            list2 = (y as? [String])!
+        myTableView.reloadData()
+        if let x = UserDefaults.standard.object(forKey: "listaDaCamprare") {
+            list = (x as? [String])!
         }
         myTableView.reloadData()
     }
@@ -50,8 +50,9 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let y = UserDefaults.standard.object(forKey: "listaDaCamprare") {
-            list2 = (y as? [String])!
+        myTableView.reloadData()
+        if let w = UserDefaults.standard.object(forKey: "listaDaCamprare") {
+            list = (w as? [String])!
         }
         myTableView.reloadData()
     }

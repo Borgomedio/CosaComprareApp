@@ -34,9 +34,6 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     override func viewDidAppear(_ animated: Bool) {
         
-        if let y = UserDefaults.standard.object(forKey: "listaCamprati") {
-            list2 = (y as? [String])!
-        }
         myTableView2.reloadData()
 
     }

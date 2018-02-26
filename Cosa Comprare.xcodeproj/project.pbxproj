@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14249119204470F4005936AF /* internetAPPUNTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14249118204470F4005936AF /* internetAPPUNTI.swift */; };
 		14297C2020415F7A00BD4D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14297C1F20415F7A00BD4D87 /* AppDelegate.swift */; };
 		14297C2220415F7A00BD4D87 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14297C2120415F7A00BD4D87 /* FirstViewController.swift */; };
 		14297C2420415F7A00BD4D87 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14297C2320415F7A00BD4D87 /* SecondViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14249118204470F4005936AF /* internetAPPUNTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = internetAPPUNTI.swift; path = "../../CloudKitSavingToTheCloud-master/Saving to the Cloud/internetAPPUNTI.swift"; sourceTree = "<group>"; };
 		14297C1C20415F7A00BD4D87 /* Cosa Comprare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosa Comprare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14297C1F20415F7A00BD4D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14297C2120415F7A00BD4D87 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				14297C2120415F7A00BD4D87 /* FirstViewController.swift */,
 				14297C2320415F7A00BD4D87 /* SecondViewController.swift */,
 				14297C352041766900BD4D87 /* ThirdViewController.swift */,
-				14249118204470F4005936AF /* internetAPPUNTI.swift */,
 				14297C2520415F7A00BD4D87 /* Main.storyboard */,
 				14728CD32041A8730014EF70 /* Media.xcassets */,
 				14297C2A20415F7A00BD4D87 /* LaunchScreen.storyboard */,
@@ -145,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14249119204470F4005936AF /* internetAPPUNTI.swift in Sources */,
 				14297C2420415F7A00BD4D87 /* SecondViewController.swift in Sources */,
 				14297C2020415F7A00BD4D87 /* AppDelegate.swift in Sources */,
 				14297C362041766900BD4D87 /* ThirdViewController.swift in Sources */,
